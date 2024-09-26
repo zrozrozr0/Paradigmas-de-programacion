@@ -1,0 +1,5 @@
+(DEFUN funcion2 (L1 L2) 
+           (COND ((AND (NULL L1) (NULL L2)) 1)
+                 ((< (LENGTH L1)(LENGTH L2))(* (CAR L2)(EJ2 (CDR L1)(CDR L2))))
+                 (T (* (CAR L1)(EJ2 (CDR L1) (CDR L2))))
+                 )))
